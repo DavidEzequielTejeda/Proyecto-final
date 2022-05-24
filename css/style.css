@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 90%;
+    height: 2000px;
+    border: 1px solid black;
+    justify-content: center;
+    margin: 0 auto;
+} 
+
+.navegador {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around ;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.listas li{
+    margin: 40px 20px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.listas a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1,5em;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zilla Slab', serif;;
+}
+/**********************************************************************************************************************************************/
+.principal {
+    width: 98%;
+    height: 400px;
+    margin: 10px 20px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.goleadores {
+    width: 350px;
+    height: 360px;
+    margin: 20px;    
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.goleadores h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.goleadores table td{
+    padding: 5px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    border: 1px solid black;
+}
+/**********************************************************************************************************************************************/
+.ligue1 {
+    display: flex;
+}
+
+.ligue1 img {
+    margin: 5px 20px 10px ;
+}
+
+.ligue1 h1 {
+    margin: 40px 5px;
+}
+
+#noticia-ligue1 {
+    height: 420px;
+    display: flex;
+}
+
+.articulos h1{
+    position: absolute;
+    color: #ffff;
+    top: 650px;
+    padding: 5px;
+    font-size: 29px;
+    font-family: 'Anton', sans-serif;;
+}
+
+.articulos h2{
+    position: absolute;
+    color: #ffff;
+    top: 735px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+.articulos p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.articulos {
+    width: 380px;
+    height: 400px;
+    padding: 9px;
+    text-align: left;
+    justify-content: center;
+}
+/**********************************************************************************************************************************************/
+.segundo-articulo{
+   display: flex;
+   border:  1px solid black;
+}
+
+.premierl{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.premierl{
+    display: flex;
+}
+
+.premierl img {
+    margin: 5px 20px 10px ;
+}
+
+.premierl h1 {
+    margin: 40px 5px;
+}
