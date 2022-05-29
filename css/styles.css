@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 90%;
+  height: 2000px;
+  border: 1px solid black;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.navegador {
+  width: 90%;
+  height: auto;
+  background-color: #000;
+ /* background-image: linear-gradient(to top, white,rgb(22, 22, 253));*/
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+}
+
+.logo {
+  margin: 10px;
+}
+
+.listas li {
+  margin: 60px 20px 0px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.listas a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 1,9em;
+  font-family: "Anton", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+
+/*.listas a:hover {
+  background-color: #ffff;
+  color: #000;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+}*/
+/**********************************************************************************************************************************************/
+.principal {
+  width: 98%;
+  height: 400px;
+  display: flex;
+  margin: 140px 20px 0px 20px;
+}
+
+.img-milan-titulo {
+  position: absolute;
+  top: 120px;
+  color: #000;
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-size: 70px;
+}
+
+.goleadores {
+  width: 400px;
+  height: auto;
+  margin: 0px 10px 10px 20px;
+}
+
+.goleadores h2 {
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
+.goleadores table {
+  width: 380px;
+  height: 359px;
+  margin: 0 auto;
+  font-family: "Anton", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Zilla Slab", serif;
+  border: 2px solid black;
+}
+
+.goleadores tr {
+  height: 35px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.goleadores td {
+  background-color: rgb(221, 219, 219);
+  padding: 5px;
+  font-family: "Anton", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+/**********************************************************************************************************************************************/
+.ligue1 {
+  display: flex;
+}
+
+.ligue1 img {
+  margin: 5px 20px 10px;
+}
+
+.ligue1 h1 {
+  margin: 40px 5px;
+}
+
+#noticia-ligue1 {
+  height: 420px;
+  display: flex;
+}
+
+.articulos h1 {
+  position: absolute;
+  top: 660px;
+  color: #ffff;
+  padding: 5px;
+  font-size: 29px;
+  font-family: "Anton", sans-serif;
+}
+
+.articulos h2 {
+  position: absolute;
+  color: #ffff;
+  top: 755px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: "Anton", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+
+.articulos p {
+  color: black;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.articulos {
+  width: 380px;
+  height: 400px;
+  padding: 9px;
+  text-align: left;
+}
+/**********************************************************************************************************************************************/
+.segundo-articulo {
+  display: flex;
+}
+
+.premierl {
+  text-align: center;
+}
+
+.premierl {
+  display: flex;
+}
+
+.premierl img {
+  margin: 5px 20px 10px;
+}
+
+.premierl h1 {
+  margin: 40px 5px;
+}
+
+.premier {
+  width: 380px;
+  height: 400px;
+  padding: 9px;
+}
+
+.premier h1 {
+  position: absolute;
+  color: #000;
+  top: 1195px;
+  padding: 5px;
+  font-size: 29px;
+  font-family: "Anton", sans-serif;
+}
+
+.premier p {
+  color: black;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.premier-table {
+  margin: 0 auto;
+  font-family: "Anton", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Zilla Slab", serif;
+  border: 2px solid black;
+}
+
+.premier-table tr {
+  height: 35px;
+  padding: 5px;
+  background-color: aquamarine;
+}
+
+.premier-table td {
+  background-color: rgb(221, 219, 219);
+  padding: 5px;
+  font-family: "Anton", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+/**********************************************************************************************************************************************/
+/**********************************************************************************************************************************************/
+/**********************************************************************************************************************************************/
+/**********************************************************************************************************************************************/
+/**********************************************************************************************************************************************/
+/**********************************************************************************************************************************************/
+/**********************************************************************************************************************************************/
+/******************************************GALERIA-RESPONSIVE-JUGADORES-DE-RIVER*****************************************/
+.grid-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 40px;
+}
+
+@media all and (min-width: 320px) {
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .grid-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.grid-gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
