@@ -4,44 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- CSS only -->
-    <link rel="stylesheet" href="">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="../js/dist/carousel.js">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../js/dist/carousel.js" />
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Boca Juniors</title>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <img src="/img-boca/descarga.png" alt="" />
+    <div class="container-boca">
+      <header class="cabeceraBoca">
+        <img src="/imgs/boca/descarga.png" alt="" />
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Noticias</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Cartas</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown link
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Enlaces
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">River</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Torneo</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Libertadores</a>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -49,46 +81,244 @@
           </div>
         </nav>
       </header>
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../img-boca/descarga.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../imgs/boca/villa.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5 style="color: #ffff; font-size: 40px">
+                El pedido de detención de Sebastián Villa: el juez tiene cinco
+                días para decidir
+              </h5>
+              <p style="color: #ffff">
+                El jugador de Boca está contra las cuerdas. La fiscal cree que
+                hay sobrados motivos para sostener su conclusión y le pidió al
+                magistrado que lo arreste.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="../imgs/boca/almendra.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: #ffff; font-size: 40px">
+                Racing insiste por Agustín Almendra, pero Boca se puso firme:
+                quiere vender un porcentaje de su pase
+              </h5>
+              <p style="color: #ffff">
+                La Academia pretende un préstamo con opción de compra, operación
+                que no le gusta a Juan Román Riquelme. El jugador fue borrado
+                por Battaglia y no tiene minutos desde febrero.
+              </p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../img-boca/descarga.png" class="d-block w-100" alt="...">
+            <img
+              src="../imgs/boca/bocaferro.png"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="../img-boca/villa.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5 style="color: #ffff; font-size: 40px">
+                Boca gano y avanza por la minima
+              </h5>
+              <p style="color: #ffff">
+                Boca sigue a paso firme en la Copa Argentina. A pesar de no
+                mostrar su mejor versión futbolística, al conjunto de Sebastián
+                Battaglia le alcanzó para imponerse por la mínima diferencia a
+                Ferro en La Rioja y meterse en octavos de final del certamen en
+                el cual es el vigente campeón
+              </p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <svg
+              class="bd-placeholder-img img-fluid rounded-start"
+              width="100%"
+              height="250"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: Image"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+            </svg>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Boca eliminó a Ferro y avanzó a octavos de final de la Copa
+                Argentina
+              </h5>
+              <p class="card-text">
+                El Xeneize sufrió en La Rioja pero se impuso por 1-0 sobre el
+                Verdolaga por el gol de Sebastián Villa y jugará con el ganador
+                de Racing y Agropecuario.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <svg
+              class="bd-placeholder-img img-fluid rounded-start"
+              width="100%"
+              height="250"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: Image"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+            </svg>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Zeballos por Salvio, lesionado: cambio de último momento en
+                Boca-Ferro
+              </h5>
+              <p class="card-text">
+                Toto iba a ser titular e inició la entrada en calor con sus
+                compañeros, pero con el correr de los minutos tuvo algún
+                inconveniente y el Changuito ocupará su lugar.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <svg
+              class="bd-placeholder-img img-fluid rounded-start"
+              width="100%"
+              height="250"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: Image"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text>
+            </svg>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                Tevez DT: Qué pasa con Boca, la primera propuesta de Argentina y
+                por qué se alejó de la política
+              </h5>
+              <p class="card-text">
+                El Apache, que días atrás anunció su retiro como futbolista
+                profesional, está listo para ponerse el buzo de entrenador y
+                tomar las riendas de un equipo junto al Chapa Retegui.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Gmial</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="xxxx@xxxx.xxxx"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Agregue su comentario sobre la informacion
+        </label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
       </div>
     </div>
+    <footer class="footer-boca">
+      <picture class="animate__animated animate__heartBeat">
+        <img
+          style="float: left; margin: 20px"
+          src="../imgs/principal/Pumas-logo.png"
+          alt=""
+          width="130px"
+          height="120px"
+        />
+      </picture>
+      <h1>Derechos de autor : David Tejeda</h1>
+    </footer>
   </body>
 </html>
-<!--Perdon hice lo quye pude lo entregue sobre la hora-->
